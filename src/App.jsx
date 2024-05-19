@@ -1,6 +1,7 @@
 
 import './App.css'
-import SimpleForm from './Componenets/SimpleForm/SimpleForm'
+// import SimpleForm from './Componenets/SimpleForm/SimpleForm'
+import StateFullForm from './Componenets/StateFullForm/StateFullForm'
 
 function App() {
   
@@ -9,7 +10,8 @@ function App() {
     <>
       
       <h1>Form Master</h1>
-      <SimpleForm></SimpleForm>
+      {/* <SimpleForm></SimpleForm> */}
+      <StateFullForm></StateFullForm>
       
     </>
   )
